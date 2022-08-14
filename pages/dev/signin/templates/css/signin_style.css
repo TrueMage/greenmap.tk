@@ -1,0 +1,260 @@
+.ps{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 15px;
+  border: solid 5px #38c65b;
+  border-radius: 5px;
+  align-items: center;
+  width: 355px;
+  height: 40px;
+  font-size: 25px;
+  font-family: Ubi;
+  margin-top: 10px;
+}
+
+::placeholder{
+  color: #1e2430;
+  font-size: 25px;
+}
+
+.hidden{
+  visibility:hidden;
+}
+  
+.first_stage{
+  position: absolute;
+  top: 47%;
+}
+
+.second_stage{
+  position: absolute;
+  top: 47%;
+}
+
+.third_stage{
+  position: absolute;
+  top: 47%;
+}
+
+
+form{
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 80px;
+  color:#38c65b;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  font-family: ColorTube;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+  margin-bottom: 28px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  color: white;
+}
+
+.tip_res{
+  background: #FF3930;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: "Ubi", Arial, sans-serif;
+}
+
+body{
+  background: #1e2430;
+}
+
+#buttons{
+  display: inline-block;
+  margin-top: 20px; 
+}
+
+button{
+  cursor: pointer;
+  width: 213px;
+  height: 63px;
+  background: #38c65b;
+  color: white;
+  border: none;
+  border-radius: 38.5px 0 0 38.5px;
+  display: inline-block;
+  margin-right: 0px;
+  font-family: Ubi;
+  font-size: 30px;
+}
+
+.button_resback{
+  cursor: pointer;
+  background: white;
+  border-radius: 38.5px 0 0 38.5px;
+  display: inline-block;
+  color: black;
+  margin-left: -10px; 
+}
+
+#button_sent{
+  background: #38c65b;
+  border-radius: 0 38.5px 38.5px 0;
+  display: inline-block;
+  color: white;
+  margin-left: -10px; 
+}
+
+#button_change{
+  background: #38c65b;
+  border-radius: 38.5px 38.5px 38.5px 38.5px;
+  color: white;
+  width: 350px;
+  margin-top: 10px; 
+}
+
+#button_signin{
+  background: #ffffff;
+  border-radius: 0 38.5px 38.5px 0;
+  display: inline-block;
+  color: black;
+  margin-left: -10px;
+}
+
+#button_back {
+    cursor: pointer;
+    display: flex;
+    margin-right: 1600px;
+    margin-top: 100px;
+    bottom: 0;
+    right: 94%;
+    border: none;
+    padding-right: 20px;
+    background: none;
+    height: 81px;
+}
+
+#button_back p {
+    bottom: 0;
+    left: 95%;
+    font-family: Ubi;
+    font-size: 30px;
+    height: 81px;
+    line-height: 81px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+.forgot_pass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: Ubi;
+  font-size: 18px;
+}
+
+.error {
+    background: #f84f4f;
+    color: white;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: Ubi;
+    font-size: 29px;
+    border-radius: 14px;
+    margin-top: 37px;
+    padding: 0px 10px;
+    margin-bottom: 34px;
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  margin-top: -10px;
+}
+
+.but {
+    font-family: Ubi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #38c65b;
+    width: 300px;
+    height: 24px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ver{
+  margin: 0 auto;
+  display: inline-flex;
+  border-radius: 100%;
+  border: solid black 3px;
+  font-family: Ubi;
+  width: 45px;
+  height: 45px;
+  background: #38c65b;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
+
+.active{
+  transition: all 0.2s;
+  background: white;
+  color: #38c65b;
+}
+
+.left{
+  margin-left: -20px;
+}
+
+.right{
+  margin-right: -20px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 159px;
+}
+
+.submit{
+  
+}
+
+@font-face {
+  font-family: ColorTube;
+  src: url(../fonts/ColorTube.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ubi;
+  src: url(../fonts/ubi.ttf);
+  font-display: swap;
+}

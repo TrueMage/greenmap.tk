@@ -1,0 +1,45 @@
+#map {
+    height: 92vh;
+    width: 100%;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 150px;
+    background-color: #232E34;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-radius: 0px 50px 0px 0px;
+    padding-right: 10px;
+}
+
+.filterButton {
+    outline: none;
+    transition: background-color 250ms linear;
+    border: none;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: background-color 250ms linear;
+    -moz-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    -o-transition: background-color 250ms linear;
+}
+
+.filters div {
+    text-align: center;
+}
+
+.filterText {
+    font-family: Ubi, sans-serif;
+    color: white;
+    margin: 10px 0px;
+    font-size: 20px;
+}

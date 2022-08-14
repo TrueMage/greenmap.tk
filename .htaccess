@@ -1,0 +1,8 @@
+<filesMatch ".(ico|pdf|jpg|jpeg|png|gif|js|css|ttf|otf)$">
+    Header set Cache-Control "max-age=36000, public"
+</filesMatch>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?/$1 [L]

@@ -1,0 +1,377 @@
+*{
+    font-family: Ubi, sans-serif;
+}
+
+body {
+    background-color: #282828;
+}
+
+.profile_box {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../../design/img/sites/background_profile.png);
+    background-size: cover;
+    height: 500px;
+}
+
+.ava {
+    transition: filter 0.3s;
+    filter: brightness(100%);
+    border-radius: 100%;
+    height: 265px;
+    width: 265px;
+}
+
+.hidden{
+  visibility:hidden;
+}
+
+.darkness {
+  transition: filter 0.3s;
+  filter: brightness(50%);
+}
+
+.imgbox{
+  position: relative;
+}
+
+.ava_change{
+  position: absolute;
+  font-size: 31px;
+  left: 24%;
+  top: 42%;
+  border: none;
+  color: white;
+  background: none;
+  padding: 5px;
+}
+
+.switch_badge_button{
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: none;
+  left: -7%;
+  top: 1px;
+}
+.switch_badge_icon{
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: 0;
+}
+.profileInfo {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 6.5%;
+}
+
+.profileStats{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profname {
+    margin-left: 38px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 40px;
+}
+
+.level_text{
+    margin-top: 2px;
+    margin-left: 38px;
+    margin-bottom: 2px;
+    color: white;
+    font-size: 24px;
+}
+
+progress{
+    width: 316px;
+    height: 17px;
+    margin-top: 9px;
+    margin-left: 32px;
+    background-color: #FF3930;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+   background-color: #FF3930;
+   border-radius: 10px; 
+}
+
+.box-badges{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 46px;
+    margin-bottom: 2px;
+}
+
+.badge{
+    width: 75px;
+    height: 75px;
+    margin-left: -19px;
+}
+
+#up_editbutton{
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 7px;
+  position: absolute;
+  bottom: 1%;
+  right: 0.4%;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+}
+
+.bars {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-top: 30px;
+    height: 80px;
+    width: 270px;
+    border: none;
+    background: white;
+    border-radius: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.icon_buttons {
+    left: 0;
+    height: 60px;
+    width: 60px;
+    padding: 10px 0;
+}
+
+.brst {
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    line-height: 80px;
+    color: #acacac;
+    font-size: 40px;
+    padding-right: 25px;
+}
+
+.red-text{
+    color: #FF3930;
+    font-size: 26px;
+}
+
+.edit_icon{
+  width: 39px;
+  height: 42px;
+}
+
+.settings_icon {
+    left: 0;
+    height: 60px;
+    width: 60px;
+    margin: 10px 0px 10px 10px;
+}
+
+.settings_text{
+   color: #292F3D;
+   font-size: 36px;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.newpin_icon {
+    left: 0;
+    height: 55px;
+    width: 45px;
+    margin: 10px 0 10px auto;
+}
+.newpin_text{
+   color: #5EFF52;
+   font-size: 34px;
+   margin: auto;
+}
+
+.quest_icon {
+    left: 0;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+.quest_text{
+    color: #FF3930;
+    font-size: 40px;
+    margin: auto;
+}
+
+.rep_icon {
+    left: 0;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+.rep_text{
+    color: #1BB1FF;
+    font-size: 40px;
+    margin: auto;
+}
+
+.admin_icon {
+    left: 0;
+    height: 60px;
+    width: 91px;
+    margin: auto;
+}
+.admin_text{
+    color: #FF160B;
+    font-size: 40px;
+    margin: auto 50px auto auto;
+}
+
+.exit_icon {
+    left: 0;
+    height: 60px;
+    width: 91px;
+    margin: auto;
+}
+.exit_text{
+    color: #FF160B;
+    font-size: 40px;
+    margin: auto 50px auto auto;
+}
+form{
+  display: inline-block;
+}
+#temp-box{
+  background-color: #1A1A1A;
+}
+
+.inputs{
+  display: flex;
+  justify-content: center;
+}
+
+.ps{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  width: 355px;
+  height: 40px;
+  font-size: 25px;
+  font-family: Ubi;
+}
+
+::placeholder{
+  color: #20232a;
+  font-size: 25px;
+}
+
+.apanel_form{
+  display: flex;
+}
+
+.errors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FF0000;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: "Ubi", Arial, sans-serif;
+}
+
+.addon{
+  width: 100%;
+  height: 250px;
+}
+
+.rep_main{
+
+}
+
+.modal{
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  border:none;
+  background: none;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Ubi';
+    src: url(../fonts/ubi.ttf);
+    font-display: swap;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#button_signup{
+  cursor: pointer;
+  width: 200px;
+  height: 63px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 38.5px 38.5px;
+  display: inline-block;
+  font-family: Ubi;
+  font-size: 30px;
+  -webkit-border-radius: 38.5px 38.5px;
+  -moz-border-radius: 38.5px 38.5px;
+  -ms-border-radius: 38.5px 38.5px;
+  -o-border-radius: 38.5px 38.5px;
+}

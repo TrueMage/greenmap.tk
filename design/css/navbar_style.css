@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+.header {
+    z-index: 1;
+    background-color: #282828;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.name {
+    height: 73px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 3px;
+    font-family: ColorTube;
+    color: #38c65b;
+    font-size: 1.563em;
+}
+
+.white{
+    color: #FFFFFF;
+    font-family: ColorTube;
+}
+.yep {
+    display: flex;
+    float: left;
+    position: absolute;
+    padding-left: 15px;
+}
+
+.logopic {
+    padding: 6px;
+    padding-top: 10px;
+    height: 55px;
+    width: 55px;
+}
+
+.avauser{
+    border-radius: 100%;
+}
+
+.singin_pic{
+     padding: 6px;
+    padding-top: 10px;
+    height: 55px;
+    width: 55px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.nav {
+    height: 73px;
+    line-height: 73px;
+    margin: 0;
+    font-family: Ubi, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2.1em;
+    text-decoration: none;
+    padding: 0 9px;
+    /* padding-top: 3px; */
+}
+
+.nav:hover{
+    transition: color 0.45s;
+    color: #80FFBF; 
+}
+
+.btns .act:hover{
+    color: white;
+}
+
+.act{
+    position: relative;
+}
+
+.act::before {
+    transform: translateX(-50%) translateY(-3%);
+    border-radius: 100%;
+    position: absolute;
+    background: #38c65b;
+    height: 8px;
+    content: '';
+    width: 8px;
+    bottom: 7%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-3%);
+    -moz-transform: translateX(-50%) translateY(-3%);
+    -ms-transform: translateX(-50%) translateY(-3%);
+    -o-transform: translateX(-50%) translateY(-3%);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    animation-duration: 0.25s;
+    animation-name: goin;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.idk2{
+    display: flex;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    float: right;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #282828;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+@font-face {
+    font-family: "ColorTube";
+    src: url(../fonts/ColorTube.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Ubi";
+    src: url(../fonts/ubi.ttf);
+    font-display: swap;
+}
+
+@keyframes goin {
+  from {
+    width: 4px;
+    height: 4px;
+    bottom: 1%; 
+  }
+  to {
+    width: 8px;
+    height: 8px;
+    bottom: 7%; 
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .nav {display: none;}
+  .singin_pic {display: none;}
+  .btns a.icon {
+    float: right;
+    display: block;
+  }
+  .yep {
+    height: 45px;
+    width: 45px;
+  }
+  .header {
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

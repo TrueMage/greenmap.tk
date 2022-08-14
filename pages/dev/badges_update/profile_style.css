@@ -1,0 +1,122 @@
+body {
+    background-color: #282828;
+}
+
+.profile_box {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -4px;
+    background-image: url(../../../templates/img/sites/background_profile.png);
+    background-size: cover;
+    height: 500px;
+}
+
+.ava {
+    height: 265px;
+}
+
+.profileInfo {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 6.5%;
+}
+
+.profileStats{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profname {
+    margin-left: 38px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    font-family: Ubi, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.level_text{
+    margin-top: 2px;
+    margin-left: 38px;
+    margin-bottom: 2px;
+    color: white;
+    font-family: Ubi, sans-serif;
+    font-size: 24px;
+}
+
+.red-text{
+    color: #FF3930;
+    font-size: 26px;
+}
+
+progress{
+    width: 300px;
+    height: 17px;
+    margin-top: 9px;
+    margin-left: 32px;
+    background-color: #FF3930;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+   background-color: #FF3930;
+   border-radius: 10px; 
+}
+
+.box-badges{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 28px;
+    margin-bottom: 2px;
+}
+
+.badge{
+    width: 75px;
+    height: 75px;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+}
+
+.button_control{
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    margin: 20px;
+}
+
+.text_contorl{
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Ubi';
+    margin-bottom: 15px;
+    bottom: 10%;
+}
+
+.img_control{
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+    bottom: 10%;
+}
+
+@font-face {
+    font-family: 'Ubi';
+    src: url(../../../templates/fonts/ubi.ttf);
+    font-display: swap;
+}

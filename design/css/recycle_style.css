@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Ubi", Arial, sans-serif;
+}
+
+body {
+  background: #3b3b3b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 220px;
+  width: 100%;
+  background-image: url(../img/sites/background_recycle.png);
+  background-size: cover;
+}
+
+.tabcontent {
+  max-width: 1550px;
+  transition: 0.2s;
+  background: #1B96FF;
+  /*background: center url(../img/sites/recycle/recycle_tab1.png);*/
+  border-radius: 13.5px;
+  padding: 17px 15px;
+  margin: 30px auto;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+p {
+  font-size: 30px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 40px;
+}
+
+@font-face {
+  font-family: Ubi;
+  src: url(../fonts/ubi.ttf);
+  font-display: swap;
+}

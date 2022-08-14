@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Ubi, sans-serif;
+}
+.main_box{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #000000;
+}
+
+.mes{
+  max-width: 129px;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  margin-right: 11px;
+  margin-left: 11px;
+  margin-top: 11px;
+}
+
+.user{
+  background: #FF3930;
+  align-self: flex-end;
+}
+
+.other{
+  background: #0084FF;
+}
+
+.text_mes{
+  font-size: 12px;
+}
+.user_name{
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: Ubi;
+  src: url(../../../templates/fonts/ubi.ttf);
+}

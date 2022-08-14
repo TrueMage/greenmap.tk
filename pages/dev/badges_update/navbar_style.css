@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #282828;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.name {
+    height: 73px;
+    line-height: 73px;
+    margin: 0;
+    padding-left: 3px;
+    font-family: ColorTube;
+    color: #38c65b;
+    font-size: 1.563em;
+}
+
+.yep {
+    display: flex;
+    float: left;
+    position: absolute;
+    padding-left: 15px;
+}
+
+.logopic {
+    padding: 6px;
+    padding-top: 10px;
+    height: 55px;
+    width: 55px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.nav {
+    height: 73px;
+    line-height: 73px;
+    margin: 0;
+    font-family: Ubi, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2.188em;
+    text-decoration: none;
+    padding: 0 9px;
+    /* padding-top: 3px; */
+}
+
+.act{
+    position: relative;
+}
+
+.act::before {
+    transform: translateX(-50%) translateY(-3%);
+    border-radius: 100%;
+    position: absolute;
+    background: #38c65b;
+    height: 8px;
+    content: '';
+    width: 8px;
+    bottom: 7%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-3%);
+    -moz-transform: translateX(-50%) translateY(-3%);
+    -ms-transform: translateX(-50%) translateY(-3%);
+    -o-transform: translateX(-50%) translateY(-3%);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    animation-duration: 0.25s;
+    animation-name: goin;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.idk2{
+    display: flex;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    float: right;
+}
+
+@font-face {
+    font-family: "ColorTube";
+    src: url(../../../templates/fonts/ColorTube.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Ubi";
+    src: url(../../../templates/fonts/ubi.ttf);
+    font-display: swap;
+}
+
+@keyframes goin {
+  from {
+    width: 4px;
+    height: 4px;
+    bottom: 1%; 
+  }
+  to {
+    width: 8px;
+    height: 8px;
+    bottom: 7%; 
+  }
+}

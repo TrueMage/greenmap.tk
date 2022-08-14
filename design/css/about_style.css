@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Ubi, sans-serif;
+  color: white;
+}
+
+.main {
+  text-align: center;
+  padding: 150px 0;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  background: url(../img/sites/about/background.png) no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: #282828;
+}
+
+.guys {
+  cursor: pointer;
+  border: none;
+  margin: 0 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.065);
+  transition: box-shadow 0.4s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.guys:hover {
+  transition: box-shadow 0.5s;
+  box-shadow: 0px 10px 22px 0px rgba(255,255,255,0.5);
+}
+
+img {
+  height: 400px;
+  width: 300px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  color: #38c65b;
+}
+
+@font-face {
+  font-family: Ubi;
+  src: url(../fonts/ubi.ttf);
+}
+
+@media screen and (max-width: 1300px) {
+  .photos{
+    position: absolute;
+    left: 50%;
+  }
+  .main {
+    text-align: center;
+    padding: 150px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: url(../img/sites/about/background.png) no-repeat;
+    background-size: cover;
+  }
+}

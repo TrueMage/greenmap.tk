@@ -1,0 +1,105 @@
+.ps{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 15px;
+  border: solid 5px #38c65b;
+  border-radius: 5px;
+  align-items: center;
+  width: 355px;
+  height: 40px;
+  font-size: 25px;
+  font-family: "Ubi", Arial, sans-serif;
+}
+
+::placeholder{
+  color: #20232a;
+  font-size: 25px;
+}
+
+.errors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FF0000;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: "Ubi", Arial, sans-serif;
+}
+
+form{
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 80px;
+  color:#38c65b;
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+  align-items: center;
+  font-family: ColorTube;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+  margin-bottom: 40px; 
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-style: italic; 
+  font-size: 30px;
+  color: white;
+}
+
+body{
+  background: #20232a;
+}
+
+.buttons{
+  display: inline-block;
+  margin-top: 70px; 
+}
+
+form button{
+  cursor: pointer;
+  width: 200px;
+  height: 63px;
+  background: #38c65b;  
+  border: none;
+  border-radius: 38.5px 0 0 38.5px;
+  display: inline-block;
+  margin-right: 0px;
+  font-family: "Ubi", Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+#button_next{
+  background: white;
+  border-radius: 0 38.5px 38.5px 0;
+  display: inline-block;
+  color: #20232a;
+  margin-left: -10px; 
+}
+
+.white{
+  color: white;
+}
+
+@font-face {
+  font-family: ColorTube;
+  src: url(../fonts/ColorTube.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ubi;
+  src: url(../fonts/ubi.ttf);
+  font-display: swap;
+}
